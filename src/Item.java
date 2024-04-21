@@ -35,8 +35,7 @@ public class Item {
 
     @Override
     public String toString() {
-        return "Item [jogos=" + jogos + ", categoria=" + categoria + ", avaliacao=" + avaliacao + ", toString()="
-                + super.toString() + "]";
+        return "Item --> jogos=" + jogos + ", categoria=" + categoria + ", avaliacao=" + avaliacao;
     }
 
 }
